@@ -1,5 +1,9 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import project1 from '../images/evenmorecode200.jpg';
+import project2 from '../images/deskpc200.jpg';
+import project3 from '../images/circuit200.jpg';
+import project4 from '../images/morecode200.jpg';
 
 export default function Project() {
   return (
@@ -14,7 +18,7 @@ export default function Project() {
 
     <div>
       <Card className='mx-auto mb-3 bg-primary inline-block text-white h-100 d-flex align-items-center justify-content-center col-3' style={{color: "#0c3f63" }}>
-        <Card.Img className='w-50 p-3' src='https://thumbs.dreamstime.com/b/cybersecurity-global-network-information-technology-security-services-internet-154742479.jpg' /> 
+        <Card.Img className='w-50 p-3' src={project1} alt={'generic tech photo'} /> 
         <Card.Body>
           <Card.Title className='text-center'><a className='text-white' href="https://github.com/Jklaver91/Challenge1" target="_blank" rel="noreferrer">
           Horiseon Challenge</a></Card.Title>
@@ -24,7 +28,7 @@ export default function Project() {
       </Card>
 
       <Card className='mx-auto mb-3 bg-primary inline-block text-white h-100 d-flex align-items-center justify-content-center col-3' style={{color: "#0c3f63" }}>
-        <Card.Img className='w-50 p-3' src='https://wallpaper.dog/large/10718196.jpg' /> 
+      <Card.Img className='w-50 p-3' src={project2} alt={'generic tech photo'} /> 
         <Card.Body>
           <Card.Title className='text-center'><a className='text-white' href="https://pdismore.github.io/Date-Night-Streaming-Generator/" target="_blank" rel="noreferrer">
           Streaming Search</a></Card.Title>
@@ -33,7 +37,7 @@ export default function Project() {
       </Card>
       
       <Card className='mx-auto mb-3 bg-primary inline-block text-white h-100 d-flex align-items-center justify-content-center col-3' style={{color: "#0c3f63" }}>
-        <Card.Img className='w-50 p-3' src='https://wallpaper.dog/large/10718196.jpg' /> 
+      <Card.Img className='w-50 p-3' src={project3} alt={'generic tech photo'} /> 
         <Card.Body>
           <Card.Title className='text-center'><a className='text-white' href="https://qc-foodies.herokuapp.com/" target="_blank" rel="noreferrer">
           QC Foodies!</a></Card.Title>
@@ -42,7 +46,7 @@ export default function Project() {
       </Card>
 
       <Card className='mx-auto mb-3 bg-primary inline-block text-white h-100 d-flex align-items-center justify-content-center col-3' style={{color: "#0c3f63" }}>
-        <Card.Img className='w-50 p-3' src='https://wallpaper.dog/large/10718196.jpg' /> 
+      <Card.Img className='w-50 p-3' src={project4} alt={'generic tech photo'} /> 
         <Card.Body>
           <Card.Title className='text-center'><a className='text-white' href="https://www.google.com/" target="_blank" rel="noreferrer">
           Project 3 TBD</a></Card.Title>
