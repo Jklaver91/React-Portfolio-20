@@ -16,7 +16,8 @@ export default function Project() {
       </Card>
       </div>
 
-    <div>
+    <div className='container'>
+      <section className='row justify-content-around'>
       <Card className='mx-auto mb-3 bg-primary inline-block text-white h-100 d-flex align-items-center justify-content-center col-3' style={{color: "#0c3f63" }}>
         <Card.Img className='w-50 p-3' src={project1} alt={'generic tech photo'} /> 
         <Card.Body>
@@ -53,6 +54,7 @@ export default function Project() {
           <Card.Text> This will be where our final group project goes at the end of the course.</Card.Text>
         </Card.Body>
       </Card>
+      </section>
       </div>
     </div>
   );
