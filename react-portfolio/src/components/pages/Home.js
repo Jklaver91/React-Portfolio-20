@@ -9,7 +9,7 @@ export default function Home() {
         <Card.Img src={code} alt={'computer with code'} /> 
         <Card.Body>
           <Card.Title className='text-center'>Home Page</Card.Title>
-          <Card.Text>Welcome to my page! Please select a tab to learn more about me!</Card.Text>
+          <Card.Text>Welcome to Justin Klaver's Portfolio page! Please select a tab to learn more about me!</Card.Text>
         </Card.Body>
       </Card>
     </div>

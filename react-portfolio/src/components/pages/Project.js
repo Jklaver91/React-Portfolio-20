@@ -54,6 +54,24 @@ export default function Project() {
           <Card.Text> This will be where our final group project goes at the end of the course.</Card.Text>
         </Card.Body>
       </Card>
+
+      <Card className='mx-auto mb-3 bg-primary inline-block text-white h-100 d-flex align-items-center justify-content-center col-3' style={{color: "#0c3f63" }}>
+      <Card.Img className='w-50 p-3' src={project4} alt={'generic tech photo'} /> 
+        <Card.Body>
+          <Card.Title className='text-center'><a className='text-white' href="https://www.google.com/" target="_blank" rel="noreferrer">
+          Another project</a></Card.Title>
+          <Card.Text> This will be where a fifth project worth sharing will be placed.</Card.Text>
+        </Card.Body>
+      </Card>
+
+      <Card className='mx-auto mb-3 bg-primary inline-block text-white h-100 d-flex align-items-center justify-content-center col-3' style={{color: "#0c3f63" }}>
+      <Card.Img className='w-50 p-3' src={project4} alt={'generic tech photo'} /> 
+        <Card.Body>
+          <Card.Title className='text-center'><a className='text-white' href="https://www.google.com/" target="_blank" rel="noreferrer">
+          Lastly One more project</a></Card.Title>
+          <Card.Text> This will be where a sixth project worth sharing will be placed.</Card.Text>
+        </Card.Body>
+      </Card>
       </section>
       </div>
     </div>
